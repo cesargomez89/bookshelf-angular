@@ -1,0 +1,7 @@
+.col-md-12
+  form.form(name='userForm', ng-submit='save(userForm)')
+    label(for='email') Email
+    input(name='email', ng-model='user.email')
+    label(for='password') Password
+    input(name='password', ng-model='user.password')
+    input(type='submit', value='Save')
